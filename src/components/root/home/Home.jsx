@@ -1,5 +1,5 @@
 const Home = () => {
-    return <div>this is home page</div>;
+    return <section className="container mx-auto px-6"></section>;
 };
 
 export default Home;
