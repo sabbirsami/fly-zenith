@@ -6,3 +6,63 @@
 body {
     font-family: "Inter", sans-serif;
 }
+
+/* MENU BUTTON  */
+.button {
+    width: 70px;
+    height: 56px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.burger {
+    width: 100%;
+}
+.burger::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 55%;
+    margin: auto;
+    background-color: black;
+    position: relative;
+    transition: transform 0.3s;
+    top: -8px;
+}
+.burger::before {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 55%;
+    margin: auto;
+    background-color: black;
+    position: relative;
+    transition: transform 0.3s;
+    top: 8px;
+}
+.burgerActive::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 55%;
+    margin: auto;
+    background-color: black;
+    position: relative;
+    transform: rotate(-45deg);
+    top: -1px;
+}
+.burgerActive::before {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 55%;
+    margin: auto;
+    background-color: black;
+    position: relative;
+    transform: rotate(45deg);
+    top: 0;
+}
+.menu {
+    transition: transform 0.5s;
+}

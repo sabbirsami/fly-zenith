@@ -1,6 +1,6 @@
 import { BsArrowRight } from "react-icons/bs";
-import japanImage from "../../../assets/hero/japan.jpg";
-import parisImage from "../../../assets/hero/paris2.jpg";
+import japanImage from "../../assets/hero/japan.jpg";
+import parisImage from "../../assets/hero/paris2.jpg";
 
 const Hero = () => {
     return (
