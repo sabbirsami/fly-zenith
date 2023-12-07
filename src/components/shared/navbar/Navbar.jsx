@@ -6,7 +6,7 @@ import { useState } from "react";
 
 const Navbar = () => {
     const [isActive, setIsActive] = useState(false);
-    const user = true;
+    const user = false;
     return (
         <header className="container mx-auto md:px-6 px-2 lg:py-8 py-5 relative">
             <nav className="flex justify-between items-center">
