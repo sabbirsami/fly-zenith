@@ -66,7 +66,7 @@ const SignIn = () => {
                                 </Link>
                             </p>
                         </div>
-                        <div className="flex justify-center border rounded-md mt-10">
+                        <div className="md:hidden flex justify-center border rounded-md mt-10">
                             <Link to={"/"} className="">
                                 <p className="py-3 px-5 bg-white inline-block">
                                     <CgArrowLongLeft className="inline mb-1 text-xl" />{" "}
