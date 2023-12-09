@@ -12,7 +12,7 @@ const Features = () => {
             id: 2,
             name: "Search and Booking",
             description:
-                "Provide a user-friendly search interface for flights. Include filters for destinations, dates, airlines, and preferences.",
+                "Provide a user-friendly search interface for flights. Include filters for destinations where you want to go, airlines, dates, airlines, and preferences.",
         },
         {
             id: 3,
@@ -40,9 +40,6 @@ const Features = () => {
         },
     ];
 
-    // Example usage
-    console.log(flightBookingFeatures);
-
     return (
         <section className="container mx-auto px-6 py-32 space-y-5">
             <h2 className="text-6xl max-w-5xl font-medium mx-auto text-center">
@@ -61,7 +58,7 @@ const Features = () => {
                     {flightBookingFeatures.map((feature) => (
                         <div
                             key={feature.id}
-                            className="p-14 backdrop:blur-2xl shadow-sm bg-white/30"
+                            className=" bg-gradient-to-r from-[#4facfe] to-[#00f2fe] relative"
                             // style={{
                             //     backgroundImage: `url("${logo}")`,
                             //     backgroundRepeat: "no-repeat",
@@ -69,12 +66,19 @@ const Features = () => {
                             //     backgroundPosition: "bottom right",
                             // }}
                         >
-                            <h1 className="text-3xl font-semibold pb-3">
-                                {feature.name}
-                            </h1>
-                            <p className="text-black/70">
-                                {feature.description}
-                            </p>
+                            <div className="bg-white m-0.5 p-14 backdrop:blur-2xl shadow-sm  ">
+                                <h1 className="text-3xl font-semibold pb-3">
+                                    {feature.name}
+                                </h1>
+                                {/* <span className="text-2xl h-14 w-14 flex justify-center items-center  font-semibold absolute -top-4 right-12 bg-gradient-to-r from-[#4facfe] to-[#00f2fe]">
+                                    <span className="bg-white h-[3.2rem] w-[3.2rem]">
+                                        0{feature.id}
+                                    </span>
+                                </span> */}
+                                <p className="text-black/70">
+                                    {feature.description}
+                                </p>
+                            </div>
                         </div>
                     ))}
                 </div>
