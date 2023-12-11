@@ -2,6 +2,7 @@ import { BsArrowRight } from "react-icons/bs";
 import airportImage from "../../../assets/hero/airport.jpg";
 import flightImage from "../../../assets/hero/flight.png";
 import Marquee from "react-fast-marquee";
+import { TbArrowsExchange } from "react-icons/tb";
 
 const Hero = () => {
     return (
@@ -42,7 +43,7 @@ const Hero = () => {
                             <div className="grid md:grid-cols-5 md:px-0 ps-6">
                                 <div className="lg:col-span-3 col-span-2"></div>
                                 <div className="lg:col-span-2 col-span-3 bg-white">
-                                    <form className="">
+                                    <form className="relative">
                                         <div className=" py-6 px-8 border-b">
                                             <label
                                                 htmlFor="departureCity "
@@ -58,31 +59,99 @@ const Hero = () => {
                                                 name="departureCity"
                                                 id="departureCity"
                                             >
-                                                <option
-                                                    disabled
-                                                    className="disabled:opacity-25 text-black/25"
-                                                >
-                                                    Select Departure City
+                                                <option value="chittagong">
+                                                    <div className="">
+                                                        <h4 className="">
+                                                            Chittagong,{" "}
+                                                        </h4>
+                                                        <p className="text-xs opacity-5">
+                                                            Shah Amanat
+                                                            International
+                                                            Airport
+                                                        </p>
+                                                    </div>
                                                 </option>
-                                                <option value="unitedStates">
-                                                    United States
+                                                <option value="cox's-bazar">
+                                                    <div className="">
+                                                        <h4 className="">
+                                                            Cox&#39;s Bazar,{" "}
+                                                        </h4>
+                                                        <p className="text-xs opacity-5">
+                                                            Cox&#39;s Bazar
+                                                            International
+                                                            Airport
+                                                        </p>
+                                                    </div>
                                                 </option>
-                                                <option value="japan">
-                                                    Japan
+                                                <option value="dhaka">
+                                                    <div className="">
+                                                        <h4 className="">
+                                                            Dhaka,{" "}
+                                                        </h4>
+                                                        <p className="text-xs opacity-5">
+                                                            Hazrat Shahjalal
+                                                            International
+                                                            Airport
+                                                        </p>
+                                                    </div>
                                                 </option>
-                                                <option value="bangladesh">
-                                                    Bangladesh
+                                                <option value="sylhet">
+                                                    <div className="">
+                                                        <h4 className="">
+                                                            Sylhet,{" "}
+                                                        </h4>
+                                                        <p className="text-xs opacity-5">
+                                                            Osmani International
+                                                            Airport
+                                                        </p>
+                                                    </div>
                                                 </option>
-                                                <option value="turkey">
-                                                    Turkey
+                                                <option value="saidpur">
+                                                    <div className="">
+                                                        <h4 className="">
+                                                            Saidpur,{" "}
+                                                        </h4>
+                                                        <p className="text-xs opacity-5">
+                                                            Saipur Airport
+                                                        </p>
+                                                    </div>
                                                 </option>
-                                                <option value="saudi">
-                                                    Saudi Arabia
+                                                <option value="rajshahi">
+                                                    <div className="">
+                                                        <h4 className="">
+                                                            Rajshahi,{" "}
+                                                        </h4>
+                                                        <p className="text-xs opacity-5">
+                                                            Shah Makhdum Airport
+                                                        </p>
+                                                    </div>
                                                 </option>
-                                                <option value="china">
-                                                    China
+                                                <option value="barisal">
+                                                    <div className="">
+                                                        <h4 className="">
+                                                            Barisal ,{" "}
+                                                        </h4>
+                                                        <p className="text-xs opacity-5">
+                                                            Barishal Airport
+                                                        </p>
+                                                    </div>
+                                                </option>
+                                                <option value="jessore">
+                                                    <div className="">
+                                                        <h4 className="">
+                                                            Jessore ,{" "}
+                                                        </h4>
+                                                        <p className="text-xs opacity-5">
+                                                            Jashore Airport
+                                                        </p>
+                                                    </div>
                                                 </option>
                                             </select>
+                                        </div>
+                                        <div className="text-center absolute top-1/5 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                                            <span className=" py-2 px-1.5 bg-[#f2f5fb] rounded-full">
+                                                <TbArrowsExchange className="inline text-2xl" />
+                                            </span>
                                         </div>
                                         <div className=" py-6 px-8">
                                             <label
@@ -99,23 +168,92 @@ const Hero = () => {
                                                 name="departureCity"
                                                 id="departureCity"
                                             >
-                                                <option value="unitedStates">
-                                                    United States
+                                                <option value="dhaka">
+                                                    <div className="">
+                                                        <h4 className="">
+                                                            Dhaka,{" "}
+                                                        </h4>
+                                                        <p className="text-xs opacity-5">
+                                                            Hazrat Shahjalal
+                                                            International
+                                                            Airport
+                                                        </p>
+                                                    </div>
                                                 </option>
-                                                <option value="japan">
-                                                    Japan
+                                                <option value="chittagong">
+                                                    <div className="">
+                                                        <h4 className="">
+                                                            Chittagong,{" "}
+                                                        </h4>
+                                                        <p className="text-xs opacity-5">
+                                                            Shah Amanat
+                                                            International
+                                                            Airport
+                                                        </p>
+                                                    </div>
                                                 </option>
-                                                <option value="bangladesh">
-                                                    Bangladesh
+                                                <option value="cox's-bazar">
+                                                    <div className="">
+                                                        <h4 className="">
+                                                            Cox&#39;s Bazar,{" "}
+                                                        </h4>
+                                                        <p className="text-xs opacity-5">
+                                                            Cox&#39;s Bazar
+                                                            International
+                                                            Airport
+                                                        </p>
+                                                    </div>
                                                 </option>
-                                                <option value="turkey">
-                                                    Turkey
+                                                <option value="sylhet">
+                                                    <div className="">
+                                                        <h4 className="">
+                                                            Sylhet,{" "}
+                                                        </h4>
+                                                        <p className="text-xs opacity-5">
+                                                            Osmani International
+                                                            Airport
+                                                        </p>
+                                                    </div>
                                                 </option>
-                                                <option value="saudi">
-                                                    Saudi Arabia
+                                                <option value="saidpur">
+                                                    <div className="">
+                                                        <h4 className="">
+                                                            Saidpur,{" "}
+                                                        </h4>
+                                                        <p className="text-xs opacity-5">
+                                                            Saipur Airport
+                                                        </p>
+                                                    </div>
                                                 </option>
-                                                <option value="china">
-                                                    China
+                                                <option value="rajshahi">
+                                                    <div className="">
+                                                        <h4 className="">
+                                                            Rajshahi,{" "}
+                                                        </h4>
+                                                        <p className="text-xs opacity-5">
+                                                            Shah Makhdum Airport
+                                                        </p>
+                                                    </div>
+                                                </option>
+                                                <option value="barisal">
+                                                    <div className="">
+                                                        <h4 className="">
+                                                            Barisal ,{" "}
+                                                        </h4>
+                                                        <p className="text-xs opacity-5">
+                                                            Barishal Airport
+                                                        </p>
+                                                    </div>
+                                                </option>
+                                                <option value="jessore">
+                                                    <div className="">
+                                                        <h4 className="">
+                                                            Jessore ,{" "}
+                                                        </h4>
+                                                        <p className="text-xs opacity-5">
+                                                            Jashore Airport
+                                                        </p>
+                                                    </div>
                                                 </option>
                                             </select>
                                         </div>

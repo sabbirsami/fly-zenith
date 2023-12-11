@@ -8,25 +8,25 @@ const PopularDestinations = () => {
     return (
         <section className="container mx-auto px-6 pb-32">
             <div className="">
-                <h2 className="text-6xl text- font-semibold">
+                <h2 className="md:text-6xl text-4xl text- font-semibold">
                     Popular Destinations
                 </h2>
-                <div className="flex justify-between items-center">
-                    <p className="text-black/60 max-w-2xl pt-6">
+                <div className="lg:flex justify-between items-center">
+                    <p className="text-black/60 md:max-w-2xl pt-6">
                         Explore our curated selection of Popular Destinations,
                         showcasing sought-after travel spots that capture the
                         essence of adventure and relaxation. From vibrant urban
                         landscapes to serene beach retreats, discover the top
                         destinations favored by fellow travelers.
                     </p>
-                    <button className="text-2xl">
+                    <button className="text-2xl md:mt-4">
                         Book Now{" "}
                         <BsArrowRight className="inline ms-2 text-2xl" />
                     </button>
                 </div>
             </div>
             <div className="">
-                <div className="grid grid-cols-4 gap-6 mt-10">
+                <div className="grid xl:grid-cols-4 md:grid-cols-2 gap-6 mt-10">
                     <div className=" relative">
                         <img
                             className="h-[26rem] w-full object-cover rounded-md"
