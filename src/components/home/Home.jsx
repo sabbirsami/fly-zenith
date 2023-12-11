@@ -1,5 +1,6 @@
 import Features from "./Featured/Features";
 import Hero from "./hero/Hero";
+import Offer from "./offer/Offer";
 import PopularDestinations from "./popularDestinations/PopularDestinations";
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
             <Hero />
             <Features />
             <PopularDestinations />
+            <Offer />
         </section>
     );
 };

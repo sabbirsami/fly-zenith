@@ -26,7 +26,7 @@ const PopularDestinations = () => {
                 </div>
             </div>
             <div className="">
-                <div className="grid grid-cols-4 gap-6 mt-20">
+                <div className="grid grid-cols-4 gap-6 mt-10">
                     <div className=" relative">
                         <img
                             className="h-[26rem] w-full object-cover rounded-md"
