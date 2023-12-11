@@ -42,9 +42,11 @@ const Features = () => {
 
     return (
         <section className="container mx-auto px-6 py-32 space-y-5">
-            <h2 className="text-6xl max-w-5xl font-medium mx-auto text-center">
+            <h2 className="md:text-6xl text-4xl max-w-5xl font-medium mx-auto text-center">
                 Discover the Power of Our Flight{" "}
-                <span className="font-bold text-7xl">Booking Platform</span>
+                <span className="font-bold md:text-7xl text-4xl">
+                    Booking Platform
+                </span>
             </h2>
             <p className="max-w-6xl mx-auto text-center">
                 Explore a range of cutting-edge features designed to enhance
@@ -54,7 +56,7 @@ const Features = () => {
                 booking service stand out:
             </p>
             <div className="">
-                <div className="grid grid-cols-3 gap-8 mt-16">
+                <div className="grid xl:grid-cols-3 lg:grid-cols-2 gap-8 mt-16">
                     {flightBookingFeatures.map((feature) => (
                         <div
                             key={feature.id}
@@ -66,7 +68,7 @@ const Features = () => {
                             //     backgroundPosition: "bottom right",
                             // }}
                         >
-                            <div className="bg-white m-0.5 p-14 backdrop:blur-2xl shadow-sm  ">
+                            <div className="bg-white m-0.5 md:p-14 p-6 backdrop:blur-2xl shadow-sm  ">
                                 <h1 className="text-3xl font-semibold pb-3">
                                     {feature.name}
                                 </h1>
