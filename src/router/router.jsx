@@ -3,6 +3,7 @@ import Root from "../components/root/Root";
 import Home from "../components/home/Home";
 import SignIn from "../components/auth/signIn/SignIn";
 import Register from "../components/auth/register/Register";
+import Bookings from "../components/booking/Bookings";
 
 const router = createBrowserRouter([
     {
@@ -15,7 +16,7 @@ const router = createBrowserRouter([
             },
             {
                 path: "/booking",
-                element: "Booking page",
+                element: <Bookings />,
             },
             {
                 path: "/sign-in",
