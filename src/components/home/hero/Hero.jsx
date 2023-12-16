@@ -294,7 +294,7 @@ const Hero = () => {
                     </div>
                     <div className="w-full mb-0">
                         <p className="pe-2 mb-0 bg-clip-text text-transparent bg-gradient-to-r from-[#4facfe] to-[#00f2fe] stroke-current">
-                            FlyZenith
+                            FlyZenith.
                         </p>
                     </div>
                     <div className="w-full mb-0">
@@ -304,7 +304,7 @@ const Hero = () => {
                         </p>
                     </div>
                     <div className="w-full mb-0">
-                        <p className="pe-2 mb-0">Local air service</p>
+                        <p className="pe-2 mb-0">Local air service.</p>
                     </div>
                 </Marquee>
             </div>
