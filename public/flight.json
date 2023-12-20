@@ -1,0 +1,46 @@
+[
+    {
+        "flightNumber": "BG101",
+        "airline": "Biman Bangladesh Airlines",
+        "from": "Chittagong",
+        "to": "Dhaka",
+        "departureDate": "2023-12-16",
+        "departureTime": "08:00:00",
+        "arrivalDate": "2023-12-16",
+        "arrivalTime": "09:30:00",
+        "price": 150
+    },
+    {
+        "flightNumber": "US202",
+        "airline": "US-Bangla Airlines",
+        "from": "Cox's Bazar",
+        "to": "Sylhet",
+        "departureDate": "2023-12-17",
+        "departureTime": "10:30:00",
+        "arrivalDate": "2023-12-17",
+        "arrivalTime": "12:00:00",
+        "price": 200
+    },
+    {
+        "flightNumber": "RJ303",
+        "airline": "Novoair",
+        "from": "Saidpur",
+        "to": "Rajshahi",
+        "departureDate": "2023-12-18",
+        "departureTime": "13:45:00",
+        "arrivalDate": "2023-12-18",
+        "arrivalTime": "15:15:00",
+        "price": 180
+    },
+    {
+        "flightNumber": "BS404",
+        "airline": "Biman Bangladesh Airlines",
+        "from": "Barisal",
+        "to": "Jessore",
+        "departureDate": "2023-12-19",
+        "departureTime": "16:30:00",
+        "arrivalDate": "2023-12-19",
+        "arrivalTime": "18:00:00",
+        "price": 160
+    }
+]
